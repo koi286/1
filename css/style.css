@@ -1,0 +1,74 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: pink;
+}
+
+.greeting {
+  text-align: center;
+}
+
+.greeting h1 {
+  margin: 20px 0 15px 0;
+}
+
+.greeting p {
+  font-size: 15px;
+  padding: 5px 0;
+}
+
+.index {
+  text-align: center;
+}
+
+.index h1 {
+  margin: 50px 0 15px 0;
+}
+
+.index p {
+  font-size: 15px;
+  padding: 5px 0 50px 0;
+}
+
+#kirby {
+  text-align: center;
+}
+
+#kirby h1 {
+  width: 100%;
+}
+
+.content {
+  display: inline-block;
+}
+
+.picture {
+  float: left;
+  padding: 10px 10px;
+  width: 50%;
+  max-width: 500px;
+}
+
+.explain {
+  float: left;
+  display: block;
+  text-align: left;
+  width: 50%;
+  max-width: 500px;
+  font-size: 15px;
+  padding: 10px 10px;
+}
+
+.explainTwo {
+  float: left;
+  display: block;
+  text-align: left;
+  width: 100%;
+  max-width: 1000px;
+  font-size: 15px;
+  padding: 10px 50px;
+}
+
+.explain span {
+  color: pink;
+}
