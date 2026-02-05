@@ -15,6 +15,22 @@
     <p>何卒宜しくお願いします。</p>
   </div>
 
+  <div class="calendar">
+  <h1>カービィの誕生日まであと・・・</h1>
+  <img id="result" src="">
+  <script>
+  const date=new Date();
+  let birthDay=new Date(date.getFullYear(),3,27);
+  if(date.valueOf()>birthDay.valueOf()){
+    birthDay= new Date(date.getFullYear()+1,3,27);
+  }
+  document.getElementById("result").textContent=Math.ceil((birthDay.valueOf()-date.valueOf())/(1000*60*60*24));
+  const img = document.getElementById("result");
+  left=Math.ceil((birthDay.valueOf()-date.valueOf())/(1000*60*60*24));
+  img.src = `img/365/${left}.PNG`;
+  </script>
+  </div> 
+
   <div class="index">
     <h1>目次</h1>
     <a href="#kirby"><p>・カービィ周年記念イラスト集</p></a>

@@ -91,3 +91,11 @@ span {
 .name {
   text-align: center;
 }
+
+.calendar {
+  text-align: center;
+}
+
+#result {
+  width: 100%;
+}
