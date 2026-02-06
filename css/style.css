@@ -61,7 +61,7 @@ h1 {
 
 .explainTwo {
   display: inline-block;
-  text-align: left;
+  text-align: center;
   width: 100%;
   max-width: 1000px;
   font-size: 15px;
@@ -97,5 +97,5 @@ span {
 }
 
 #result {
-  width: 100%;
+  width: 86%;
 }
